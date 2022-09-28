@@ -1,0 +1,30 @@
+.player-container {
+  border: 1px solid #fcc601b1;
+  border-radius: 5px;
+  width: 250px;
+  height: 380px;
+  position: relative;
+}
+.player-container img {
+  width: 236px;
+  height: 132px;
+  border-radius: 5px;
+  margin: 7px;
+}
+.player-details {
+  padding-left: 10px;
+}
+.player-add-btn {
+  width: 236px;
+  font-weight: 600;
+  border: 1px solid #fcc601b1;
+  border-radius: 3px;
+  background-color: #fcc60150;
+  padding: 10px;
+  margin: 15px 7px 0 7px;
+  position: absolute;
+  bottom: 15px;
+}
+.player-add-btn:hover {
+  background-color: #fcc601b8;
+}
