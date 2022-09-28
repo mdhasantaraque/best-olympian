@@ -1,0 +1,98 @@
+[
+  {
+    "id": "633481256a185ada6a6acd33",
+    "name": "Usain Bolt",
+    "details": "The Olympic records for the event are 9.63 seconds, set by Usain Bolt in 2012. The world records for the event have been equalled or broken during the Olympics on seven occasions in the men's category.",
+    "title": "Men's 100 meters",
+    "img": "../images/Usain Bolt.jpg",
+    "age": 36,
+    "weight": 94,
+    "height": 1.95,
+    "timing": 9.63,
+    "address": "Montego Bay, Jamaica."
+  },
+  {
+    "id": "633481251bfad72356c6ca56",
+    "name": "Usain Bolt",
+    "details": "The Olympic records for the distance are 19.30 seconds for men, set by Usain Bolt in 2008, and 21.34 seconds set by Florence Griffith-Joyner in 1988.",
+    "title": "Men's 200 meters",
+    "img": "../images/Usain Bolt.jpg",
+    "age": 36,
+    "weight": 94,
+    "height": 1.95,
+    "timing": 19.3,
+    "address": "Montego Bay, Jamaica."
+  },
+  {
+    "id": "6334812551061e1d005b87f6",
+    "name": "Wayde Van Niekerk",
+    "details": "The current men's world record is held by Wayde Van Niekerk of 43.03 seconds. Van Niekerk is also the Olympic record holder.",
+    "title": "Men's 400 meters",
+    "img": "../images/wayde van niekerk.jpg",
+    "age": 30,
+    "weight": 70,
+    "height": 1.83,
+    "timing": 43.03,
+    "address": "Cape Town, South Africa."
+  },
+  {
+    "id": "633481257d38f3139b461ad9",
+    "name": "Elaine Thompson-Herah",
+    "details": "The Olympic records for the event are 10.61 seconds, set by Elaine Thompson-Herah in 2021. The world records for the event have been equalled or broken during the Olympics on twelve occasions in the women's.",
+    "title": "Women's 100 meters",
+    "img": "../images/Elaine-Thompson-Herah.jpg",
+    "age": 30,
+    "weight": 56,
+    "height": 1.68,
+    "timing": 10.61,
+    "address": "Manchester, Jamaica."
+  },
+  {
+    "id": "633481256c7e245864cf2ee3",
+    "name": "Florence Griffith-Joyner",
+    "details": "The women's world record holder is Florence Griffith-Joyner of the United States, who ran 21.34 s at the 1988 Summer Olympics.",
+    "title": "Women's 200 meters",
+    "img": "../images/Florence Griffith-Joyner.jpg",
+    "age": "38 (Age of died)",
+    "weight": 57,
+    "height": 1.7,
+    "timing": 21.34,
+    "address": "Los Angeles, USA."
+  },
+  {
+    "id": "63348125ca3639b39b1b8274",
+    "name": "Marita Koch",
+    "details": "The current women's world record is held by Marita Koch, with a time of 47.60 seconds.",
+    "title": "Women's 400 meters",
+    "img": "../images/Marita Koch.jpg",
+    "age": 65,
+    "weight": 62,
+    "height": 1.71,
+    "timing": 47.6,
+    "address": "Wismar, East Germany."
+  },
+  {
+    "id": "633481253a82f98a6f033950",
+    "name": "Caeleb Dressel",
+    "details": "Caeleb Dressel smashed the Olympic record to win 50m freestyle. The American swimmer touched the wall in a time of 21.07, shaving 0.23 off the previous mark set by Brazil's Cesar Cielo in 2008.",
+    "title": "Men's 50 mtr freestyle swimming",
+    "img": "../images/Caeleb Dressel.jpg",
+    "age": 26,
+    "weight": 90.72,
+    "height": 1.91,
+    "timing": 21.07,
+    "address": "Florida, USA."
+  },
+  {
+    "id": "633481523a82f95a6f033389",
+    "name": "Cesar Cielo Filho",
+    "details": "At the 2009 World Championships in Rome, he won the sprint double (50 and 100 metres), crowning his performance with a world record in the 100. Cielo's 46.91 was the first official time under 47 seconds.",
+    "title": "",
+    "img": "../images/Cesar Cielo Filho.jpg",
+    "age": 35,
+    "weight": 88,
+    "height": 1.95,
+    "timing": 46.91,
+    "address": "Sao Paulo, Brazil."
+  }
+]
