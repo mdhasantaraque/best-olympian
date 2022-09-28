@@ -4,7 +4,7 @@ import "./Player.css";
 const Player = (props) => {
   //   console.log(props);
   const { title, name, timing, img } = props.player;
-  console.log(img);
+
   return (
     <div className="player-container">
       <img src={img} alt="" />
@@ -14,7 +14,12 @@ const Player = (props) => {
         <p>Best timing: {timing}s</p>
       </div>
 
-      <button className="player-add-btn">Add to list</button>
+      <button
+        onClick={() => props.handleAddToExercise(props.player)}
+        className="player-add-btn"
+      >
+        Add to list
+      </button>
     </div>
   );
 };
