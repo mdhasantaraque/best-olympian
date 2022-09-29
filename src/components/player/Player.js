@@ -4,7 +4,7 @@ import "./Player.css";
 const Player = (props) => {
   //   console.log(props);
   const { player, handleAddToExercise } = props;
-  const { title, name, timing, img } = player;
+  const { title, name, timing, img, address } = player;
 
   return (
     <div className="player-container">
@@ -12,6 +12,7 @@ const Player = (props) => {
       <div className="player-details">
         <h3>{title}</h3>
         <h4>Athlete: {name}</h4>
+        <p>{address}</p>
         <p>Best timing: {timing}s</p>
       </div>
 

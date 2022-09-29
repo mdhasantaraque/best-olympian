@@ -3,7 +3,7 @@ import "./SideBar.css";
 
 const SideBar = ({ side }) => {
   const [time, setTime] = useState();
-  console.log(side);
+  localStorage.setItem("Time", time);
 
   let name;
   let address;
@@ -49,16 +49,16 @@ const SideBar = ({ side }) => {
       <div>
         <h4>Add a Break</h4>
         <div>
-          <button onClick={setTime(10)} className="break-btn">
+          <button onClick={() => setTime(10)} className="break-btn">
             10s
           </button>
-          <button onClick={setTime(20)} className="break-btn">
+          <button onClick={() => setTime(20)} className="break-btn">
             20s
           </button>
-          <button onClick={setTime(30)} className="break-btn">
+          <button onClick={() => setTime(30)} className="break-btn">
             30s
           </button>
-          <button onClick={setTime(40)} className="break-btn">
+          <button onClick={() => setTime(40)} className="break-btn">
             40s
           </button>
         </div>

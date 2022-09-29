@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Blog from "../blog/Blog";
 import Player from "../player/Player";
 import SideBar from "../sideBar/SideBar";
 import "./Game.css";
@@ -31,6 +32,9 @@ const Game = () => {
                 handleAddToExercise={handleAddToExercise}
               ></Player>
             ))}
+          </div>
+          <div className="blog-counter">
+            <Blog></Blog>
           </div>
         </div>
         <div className="side-container">
