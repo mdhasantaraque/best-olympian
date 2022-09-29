@@ -12,7 +12,9 @@ const Game = () => {
       .then((res) => res.json())
       .then((data) => setPlayers(data));
   }, []);
-
+  // useEffect(()=>{
+  //   const storedData = getStoredDb()
+  // },[])
   const handleAddToExercise = (selectedPlayer) => {
     // console.log(selectedPlayer);
     const upDateBar = [...side, selectedPlayer];
@@ -23,7 +25,7 @@ const Game = () => {
     <div className="game">
       <div className="game-container">
         <div>
-          <h2 className="title">Select best Athlete</h2>
+          <h2 className="title">Best Timing</h2>
           <div className="athlete-container">
             {players.map((player) => (
               <Player

@@ -3,7 +3,16 @@ import "./SideBar.css";
 
 const SideBar = ({ side }) => {
   const [time, setTime] = useState();
-  localStorage.setItem("Time", time);
+  localStorage.setItem("Time", JSON.stringify(time));
+
+  // const getStoredDb = () => {
+  //   let time = {};
+  //   const storedDb = localStorage.getItem("Time");
+  //   if (storedDb) {
+  //     time = JSON.parse(storedDb);
+  //   }
+  //   return time;
+  // };
 
   let name;
   let address;
@@ -74,5 +83,4 @@ const SideBar = ({ side }) => {
     </div>
   );
 };
-
 export default SideBar;
