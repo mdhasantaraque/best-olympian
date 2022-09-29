@@ -3,7 +3,8 @@ import "./Player.css";
 
 const Player = (props) => {
   //   console.log(props);
-  const { title, name, timing, img } = props.player;
+  const { player, handleAddToExercise } = props;
+  const { title, name, timing, img } = player;
 
   return (
     <div className="player-container">
@@ -15,7 +16,7 @@ const Player = (props) => {
       </div>
 
       <button
-        onClick={() => props.handleAddToExercise(props.player)}
+        onClick={() => handleAddToExercise(player)}
         className="player-add-btn"
       >
         Add to list

@@ -1,33 +1,40 @@
 import React, { useEffect, useState } from "react";
 import Player from "../player/Player";
+import SideBar from "../sideBar/SideBar";
 import "./Game.css";
 
 const Game = () => {
   const [players, setPlayers] = useState([]);
+  const [sideBar, setSideBar] = useState([]);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
       .then((data) => setPlayers(data));
   }, []);
+
   const handleAddToExercise = (selectedPlayer) => {
     console.log(selectedPlayer);
+    const upDateBar = [...sideBar, selectedPlayer];
+    setSideBar(upDateBar);
   };
 
   return (
     <div className="game">
-      <h2>Select best Athlete</h2>
       <div className="game-container">
-        <div className="athlete-container">
-          {players.map((player) => (
-            <Player
-              player={player}
-              key={player.id}
-              handleAddToExercise={handleAddToExercise}
-            ></Player>
-          ))}
+        <div>
+          <h2 className="title">Select best Athlete</h2>
+          <div className="athlete-container">
+            {players.map((player) => (
+              <Player
+                player={player}
+                key={player.id}
+                handleAddToExercise={handleAddToExercise}
+              ></Player>
+            ))}
+          </div>
         </div>
-        <div className="exercise-container">
-          <h3>Exercise Component</h3>
+        <div className="side-container">
+          <SideBar sideBar={sideBar}></SideBar>
         </div>
       </div>
     </div>
