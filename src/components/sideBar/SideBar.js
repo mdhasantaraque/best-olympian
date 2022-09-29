@@ -1,18 +1,10 @@
 import React, { useState } from "react";
+import { addToDb } from "../utility/Fakedb";
 import "./SideBar.css";
 
 const SideBar = ({ side }) => {
   const [time, setTime] = useState();
-  localStorage.setItem("Time", JSON.stringify(time));
-
-  // const getStoredDb = () => {
-  //   let time = {};
-  //   const storedDb = localStorage.getItem("Time");
-  //   if (storedDb) {
-  //     time = JSON.parse(storedDb);
-  //   }
-  //   return time;
-  // };
+  addToDb(time);
 
   let name;
   let address;
@@ -33,7 +25,7 @@ const SideBar = ({ side }) => {
 
   return (
     <div className="side-bar">
-      <h3>Player Details</h3>
+      <h3>Record Holder</h3>
       <div className="player-name">
         <h3>Name: {name}</h3>
         <p>{address}</p>
