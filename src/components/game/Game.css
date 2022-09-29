@@ -14,3 +14,9 @@
   padding-left: 140px;
   padding-right: 140px;
 }
+
+@media only screen and (max-width: 768px) {
+  .athlete-container {
+    grid-template-columns: 1fr;
+  }
+}
