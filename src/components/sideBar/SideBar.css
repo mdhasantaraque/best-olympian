@@ -1,0 +1,17 @@
+.side-bar {
+  position: sticky;
+  top: 0;
+  padding-left: 20px;
+}
+.player-name {
+  height: 100px;
+}
+.player-mesure {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fcc601b1;
+  border-radius: 5px;
+  background-color: #ede2b857;
+  padding: 5px;
+  margin-right: 5px;
+}

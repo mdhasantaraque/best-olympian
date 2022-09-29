@@ -5,7 +5,7 @@ import "./Game.css";
 
 const Game = () => {
   const [players, setPlayers] = useState([]);
-  const [sideBar, setSideBar] = useState([]);
+  const [side, setSide] = useState([]);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
@@ -13,9 +13,9 @@ const Game = () => {
   }, []);
 
   const handleAddToExercise = (selectedPlayer) => {
-    console.log(selectedPlayer);
-    const upDateBar = [...sideBar, selectedPlayer];
-    setSideBar(upDateBar);
+    // console.log(selectedPlayer);
+    const upDateBar = [...side, selectedPlayer];
+    setSide(upDateBar);
   };
 
   return (
@@ -34,7 +34,7 @@ const Game = () => {
           </div>
         </div>
         <div className="side-container">
-          <SideBar sideBar={sideBar}></SideBar>
+          <SideBar side={side}></SideBar>
         </div>
       </div>
     </div>
