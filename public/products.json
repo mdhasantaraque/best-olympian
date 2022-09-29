@@ -2,7 +2,7 @@
   {
     "id": "633481256a185ada6a6acd33",
     "name": "Usain Bolt",
-    "details": "The Olympic records for the event are 9.63 seconds, set by Usain Bolt in 2012. The world records for the event have been equalled or broken during the Olympics on seven occasions in the men's category.",
+    "details": "The Olympic records for the event are 9.63 seconds, set by Usain Bolt in 2012. The world records for the event have been during the Olympics on seven occasions.",
     "title": "Men's 100 meters",
     "img": "https://img.olympicchannel.com/images/image/private/t_16-9_3200/primary/itgo4fceaazaicrrl7b2",
     "age": 36,
@@ -38,7 +38,7 @@
   {
     "id": "633481257d38f3139b461ad9",
     "name": "Elaine Thompson-Herah",
-    "details": "The Olympic records for the event are 10.61 seconds, set by Elaine Thompson-Herah in 2021. The world records for the event have been equalled or broken during the Olympics on twelve occasions in the women's.",
+    "details": "The Olympic records for the event are 10.61 seconds, set by Elaine Thompson-Herah in 2021.",
     "title": "Women's 100 meters",
     "img": "https://cdn-japantimes.com/wp-content/uploads/2022/08/np_file_174958.jpeg",
     "age": 30,
@@ -74,7 +74,7 @@
   {
     "id": "633481253a82f98a6f033950",
     "name": "Caeleb Dressel",
-    "details": "Caeleb Dressel smashed the Olympic record to win 50m freestyle. The American swimmer touched the wall in a time of 21.07, shaving 0.23 off the previous mark set by Brazil's Cesar Cielo in 2008.",
+    "details": "Caeleb Dressel smashed the Olympic record to win 50m freestyle. The American swimmer touched the wall in a time of 21.07.",
     "title": "Men's 50 mtr freestyle swimming",
     "img": "https://olympics.nbcsports.com/wp-content/uploads/sites/10/2021/06/GettyImages-1323529737-e1623936631549.jpg?w=1024",
     "age": 26,
@@ -86,7 +86,7 @@
   {
     "id": "633481523a82f95a6f033389",
     "name": "Cesar Cielo Filho",
-    "details": "At the 2009 World Championships in Rome, he won the sprint double (50 and 100 metres), crowning his performance with a world record in the 100. Cielo's 46.91 was the first official time under 47 seconds.",
+    "details": "At the 2009 World Championships in Rome, he won the sprint double (50 and 100 metres), crowning his performance with a world record in the 100in a time of 46.91 .",
     "title": "Men's 100 mtr freestyle swimming",
     "img": "https://swimswam.com/wp-content/uploads/2015/02/Cesar-Cielo-Satiro-Sodre-Celebration.jpg",
     "age": 35,

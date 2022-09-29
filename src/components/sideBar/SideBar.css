@@ -6,7 +6,10 @@
 .player-name {
   height: 100px;
 }
-.player-mesure {
+.player-box {
+  height: 200px;
+}
+.player-measure {
   display: flex;
   justify-content: space-between;
   border: 1px solid #fcc601b1;
@@ -14,4 +17,31 @@
   background-color: #ede2b857;
   padding: 5px;
   margin-right: 5px;
+}
+.break-btn {
+  border: 1px solid #fcc601b1;
+  border-radius: 5px;
+  background-color: #ede2b857;
+  padding: 5px;
+  margin-right: 20px;
+}
+.break-btn:hover {
+  background-color: #fcc601b1;
+}
+.time-break {
+  border: 1px solid #fcc601b1;
+  border-radius: 5px;
+  background-color: #ede2b857;
+  padding: 10px;
+}
+.activity-btn {
+  font-size: 20px;
+  font-weight: 700;
+  width: 90%;
+  border: 1px solid #fcc601;
+  border-radius: 10px;
+  background-color: #fcc601b1;
+}
+.activity-btn:hover {
+  background-color: #017ebd;
 }
