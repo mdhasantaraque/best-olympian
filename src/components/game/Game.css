@@ -23,8 +23,13 @@
 .side-container {
   background-color: #fcc60175;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 712px) {
   .athlete-container {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 713px) and (max-width: 1138px) {
+  .athlete-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

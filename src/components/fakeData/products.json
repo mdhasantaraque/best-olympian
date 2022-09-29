@@ -94,5 +94,17 @@
     "height": 1.95,
     "timing": 46.91,
     "address": "Sao Paulo, Brazil."
+  },
+  {
+    "id": "633495123a82f42a6f018654",
+    "name": "Emma McKeon",
+    "details": "Australian Emma McKeon stormed to victory in the 50m freestyle event today at Tokyo Aquatics Centre clocking in a blistering time of 23:81 which broke her own Olympic record .",
+    "title": "Women's 50 mtr freestyle swimming",
+    "img": "https://i.guim.co.uk/img/media/b2c0fa4b1668dd91b501ea0cc2788882f4fbf173/0_0_8256_4954/master/8256.jpg?width=620&quality=85&fit=max&s=1a700afe1d00e00482307bac91322b5d",
+    "age": 28,
+    "weight": 60,
+    "height": 1.8,
+    "timing": 23.81,
+    "address": "New South Wales, Australia."
   }
 ]
